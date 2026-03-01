@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "api-docs-rag": {
+      "type": "stdio",
+      "command": "D:/dev2/cpp/clanker/rag/.venv/Scripts/python.exe",
+      "args": [
+        "D:/dev2/cpp/clanker/rag/server.py",
+        "--docs-dir",
+        "D:/dev2/cpp/clanker/rag/docs"
+      ]
+    }
+  }
+}
